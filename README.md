@@ -1,0 +1,2 @@
+# Naive Bayes Email Classifier
+ This Naive Bayes Email Classifier project showcases the development of a machine learning model to classify emails into 'spam' and 'ham' categories. Utilizing principles of probabilistic classification, it involves training on pre-classified datasets, followed by testing and validating its accuracy on new datasets, highlighting the practical application of text processing and probabilistic models in spam detection.  Initial project provided by Dr. Phillip Kirlin (@pkirlin), completed by me.

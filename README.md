@@ -33,14 +33,14 @@ This repository hosts my academic project where I've developed a Naive Bayes cla
 **What The Output Means**: 
 
 Each line represents a test email that was classified.
-The format seems to be: `TEST <number> <features>/<total features> <result> <score1> <score2> <classification> <correctness>`
+The format is: `TEST <number> <features>/<total features> <result> <score1> <score2> <classification> <correctness>`
 
-- **TEST <number>**: This is just a sequence number for the test email.
-- **<features>/<total features>**: This indicates how many features (distinct words or tokens) in this particular email were considered relevant out of the total number of features the classifier was trained on. For example, "66/78082" means 66 features were used out of 78,082.
-- **<result>**: This is likely a boolean value indicating whether the email was actually spam (true or false). The exact meaning depends on how the data was labeled during training.
-- **<score1> <score2>**: These are probably the log probabilities calculated by the Naive Bayes algorithm for each class (spam and ham). The algorithm computes the likelihood of the email being spam or ham based on the features it has learned during training.
-- **<classification>**: This is the classifier's prediction — whether it thinks the email is spam or ham.
-- **<correctness>**: Indicates whether the classifier's prediction was right or wrong. "Right" means the prediction matched the actual label of the email; "wrong" means it didn't.
+- TEST <number>: This is just a sequence number for the test email.
+- <features>/<total features>: This indicates how many features (distinct words or tokens) in this particular email were considered relevant out of the total number of features the classifier was trained on. For example, "66/78082" means 66 features were used out of 78,082.
+- **<result>**: This is a boolean value indicating whether the email was actually spam (true or false). The exact meaning depends on how the data was labeled during training.
+- <score1> <score2>: These the log probabilities calculated by the Naive Bayes algorithm for each class (spam and ham). The algorithm computes the likelihood of the email being spam or ham based on the features it has learned during training.
+- <classification>: This is the classifier's prediction — whether it thinks the email is spam or ham.
+- <correctness>: Indicates whether the classifier's prediction was right or wrong. "Right" means the prediction matched the actual label of the email; "wrong" means it didn't.
 
 For example, in the line `TEST 1 66/78082 features true -272.268 -260.188 ham right`, it means:
 

@@ -17,7 +17,7 @@ This repository hosts my academic project where I've developed a Naive Bayes cla
 - **Training Phase**: The program begins by processing two sets of training data, one for spam and one for ham emails. It analyzes these datasets to determine the frequency of each word in both categories, building a vocabulary set and a frequency count for spam and ham words.
 - **Testing Phase**: After training, the classifier is tested on a separate set of emails. It classifies each email by calculating the Maximum A Posteriori (MAP) hypothesis, which involves computing log-probabilities for both spam and ham categories and selecting the category with the higher probability.
 - **Probability Calculations**: To avoid numerical underflow common with small probabilities, the program utilizes log-probabilities. This approach ensures more stable and accurate computations.
-- **Output**: For each email in the test set, the program outputs the message number, the number of features (words) that were found to be true in the message, the log-probabilities for both classes, the predicted class, and whether the prediction was correct or not.
+- **Output**: For each email in the test set, the program outputs the message number, the number of features (words) that were found to be true in the message, the log-probabilities for both classes, the predicted class, and whether the prediction was correct or not. Utilizing the .txt file provided in the repository the accuary should be 1179/1551 emails classified correctly or around 76%.
 
 ### Technical Challenges and Solutions
 

@@ -1,7 +1,7 @@
 # Naive Bayes Email Classifier
 
 ## General Project Description
-This repository hosts my academic project where I've developed a Naive Bayes classifier for email classification into two categories: spam and ham (non-spam). The project is focused on understanding and implementing the principles of probabilistic classification using Naive Bayes algorithms. The classifier is trained on a dataset of pre-classified emails, learning the distinction between spam and ham based on word frequencies.
+A Naive Bayes classifier for email classification into two categories: spam and ham (non-spam). The project is focused on understanding and implementing the principles of probabilistic classification using Naive Bayes algorithms. The classifier is trained on a dataset of pre-classified emails, learning the distinction between spam and ham based on word frequencies.
 
 ## How to Run the Program
 
